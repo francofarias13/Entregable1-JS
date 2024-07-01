@@ -2,7 +2,10 @@ const productos = [
     { id: 1, nombre: "Caño de Escape Deportivo", precio: 15000, imagen: "https://http2.mlstatic.com/D_629859-MLA74866055448_032024-C.jpg" },
     { id: 2, nombre: "Caño de Escape Original", precio: 12000, imagen: "https://urquizamotos.com.ar/67837-large_default/ca%C3%B1o-escape-corven-energy-110-original-.jpg" },
     { id: 3, nombre: "Service Básico", precio: 5000, imagen: "https://fulltimemotos.com.ar/wp-content/uploads/cuando-hacer-service-a-la-moto.webp" },
-    { id: 4, nombre: "Service Completo", precio: 10000, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHMbI0h9e69WBHFJGR0eaXVngHE0ZmJadqpA&s" }
+    { id: 4, nombre: "Rueda", precio: 30000, imagen: "https://fulltimemotos.com.ar/wp-content/uploads/que-tipos-de-neumaticos-hay-1.webp" },
+    { id: 5, nombre: "Sistema motor", precio: 100000, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVZgioqBtXAdxkb8wMHU8vUsMdcZNfHFk2iQ&s" },
+    { id: 6, nombre: "Sistema Frenos", precio: 80000, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNtKUqkvVfapqJ0BeHZWzLG6GpGnn_fmm4zA&s" },
+    { id: 7, nombre: "Manillar", precio: 20000, imagen: "https://http2.mlstatic.com/D_NQ_NP_641769-MLA53382707186_012023-O.webp" }
 ];
 
 let cartProducts = JSON.parse(localStorage.getItem("cartProducts")) || [];
