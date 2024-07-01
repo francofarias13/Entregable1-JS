@@ -61,14 +61,10 @@ function addCartButtonsEventListeners() {
 }
 
 function confirmarCompra() {
-    let mensaje = 'Compra confirmada: \n';
     let total = 0;
     cartStorage.forEach(producto => {
-        mensaje += `${producto.nombre} - Cantidad: ${producto.cantidad} - Precio: ${producto.precio * producto.cantidad}\n`;
         total += producto.precio * producto.cantidad;
     });
-    mensaje += `Total: ${total}`;
-    alert(mensaje);
     cartStorage = [];
     localStorage.setItem("cartProducts", JSON.stringify(cartStorage));
     renderCarrito(cartStorage);
