@@ -1,13 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- JS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <script defer src="./js/main.js"></script>
-    <title>Franco Farias</title>
-</head>
-<body>
-    <h1>Franco Farias</h1>
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>EAC RACING MOTOS</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="bg-dark text-white text-center py-5">
+        <h1 class="display-4">EAC Racing</h1>
+        <p class="lead">
+          Somos una empresa dedicada a la producción y distribución de productos
+          para motos.
+        </p>
+      </header>
+      <main class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <section id="products-container" class="row"></section>
+      </main>
+      <section id="products-container" class="row"></section>
+      <a
+        href="./carrito.html"
+        class="btn btn-secondary cart-icon"
+        id="cart-button"
+      >
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count" class="badge badge-light">0</span>
+      </a>
+    </div>
+    <footer class="text-center mt-5">
+      <p>&copy; 2024 EAC Racing. Todos los derechos reservados.</p>
+    </footer>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
 </html>
